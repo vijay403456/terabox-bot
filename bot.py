@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = "7204491219:AAFxkr0Rj-RCN4O7odXqoEYGX1o3yoVQcDk"
+BOT_TOKEN = "7204491219:AAEimNEQiTYenLd9pbjpehjMCPir1ctdH6g"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 Hello! Send me a TeraBox link to get started.")
